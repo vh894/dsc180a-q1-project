@@ -1,4 +1,4 @@
-# Location-Based Optimization of Electric Vehicle Charging Networks
+# Optimizing Electric Vehicle Charger Placement Through Spatial and Demographic Analysis
 
 This project aims to find the factors that influence the location of electric vehicle (EV) charging stations within SDG&E service areas. It will perform data analysis with various features and datasets to discover the primary variables involved with EV charger placement.
 
