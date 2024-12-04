@@ -40,8 +40,8 @@ This project aims to find the factors that influence the location of electric ve
 3. To install the dependencies, run the following command: `pip install -r requirements.txt`. Ensure that all the library versions listed in `requirements.txt` are installed in your VS Code environment. 
 4. Open all of the files from this GitHub repository in VS Code. If you see the words "Run Cell | Run Above | Debug Cell" above each cell in the Python files, then you have the extensions from Step 2 correctly added. 
 5. Navigate to the `AFDC_data.py` file. This Python file requires you to have an API to access the data. To get an API, go to `https://developer.nrel.gov/signup/`. Once you get your API key, replace the value of the variable `api_key` in the file with your personal API key as a string. Run each cell in this file by clicking the "Run Cell" text above each cell.
-  - The fourth cell in this file will create the `afdc_data.json` file based on the data you requested with your API.
-  - The last cell in this file will convert `afdc_data.json` into a CSV file called `ev_data.csv`.
+   - The fourth cell in this file will create the `afdc_data.json` file based on the data you requested with your API.
+   - The last cell in this file will convert `afdc_data.json` into a CSV file called `ev_data.csv`.
 6. Navigate to the `time_series-geospatial-eda.py` file. Run each cell in this file. This should create 3 time-series plots and 4 geospatial plots in the Python Interactive window.
 7. Navigate to the `cenpy_eda.py` file. Run each cell in this file. This should create 4 choropleth maps in the Python Interactive window.
 8. Navigate to the `osmnx-eda.py` file. Run each cell in this file. This should create 2 maps in the Python Interactive window. One map shows all the streets in San Diego County and a red line depicting the shortest distance from a selected EV charger to the SDG&E office location. The second map is an interactive map that also shows the shortest distance from the selected EV charger to the SDG&E office location.
